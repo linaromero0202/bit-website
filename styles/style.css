@@ -38,6 +38,12 @@ thead{
     border-bottom: 10px solid rgb(219, 133, 237);
     text-align: center;
     background-color: #fb5fee;
+   
 }
-
+caption{
+    background-color: rgb(168, 83, 247);
+}
+h3-p-class-secundario{
+    color: blue;
+}
 
