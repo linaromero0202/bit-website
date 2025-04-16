@@ -1,5 +1,14 @@
 h1{
-    background-color: rgb(134, 13, 182);
+    background-color: rgb(192, 69, 240);
+    height: 50px;
+    width: 100%;
+    margin: 5pxpx;
+    text-align: center;
+    line-height: 50px;
+}
+head{
+    text-align: center;
+    line-height: 30px;
 }
 
 h2, h3{
@@ -8,10 +17,9 @@ h2, h3{
 
 body{
     background-color: rgba(244, 197, 242, 0.666);
-}
-
-p{
-    background-color: rgb(188, 121, 250);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+    
+    
 }
 
  h2 h3 h4  {
@@ -23,15 +31,15 @@ td{
     border: 10px solid rgb(190, 142, 229)
 
 }
-
 ul,ol{
     background-color: rgb(232, 116, 247);
 }
 nav{
-    background-color: rgb(223, 172, 251);
-}
+    background-color: rgb(227, 183, 251);
+    
+} 
     a{
-        background-color:rgb(169, 109, 233) ;
+        background-color:rgb(202, 168, 238) ;
     }
 
 thead{
@@ -43,7 +51,10 @@ thead{
 caption{
     background-color: rgb(168, 83, 247);
 }
-h3-p-class-secundario{
-    color: blue;
+#container{
+    margin-bottom: 1px auto;
+    border: 3px solid rgb(200, 0, 255);
+    padding:5px ;
+    width: 1900px;
 }
 
