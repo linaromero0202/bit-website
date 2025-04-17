@@ -51,10 +51,33 @@ thead{
 caption{
     background-color: rgb(168, 83, 247);
 }
-#container{
-    margin-bottom: 1px auto;
-    border: 3px solid rgb(200, 0, 255);
+.container{
+    display:inline-flex;
+    flex-direction:row;
+    flex-wrap: nowrap;
+    justify-content:center;
+    align-items: center;
+    align-content:center;
+    margin-bottom:1px auto;
+    border:3px solid rgb(200, 0, 255);
     padding:5px ;
-    width: 1900px;
+    width:100%;
+    text-align: center;
 }
-
+.meduim{
+    order:0;
+    flex:0 1 auto;
+    align-self:auto;
+    height:auto;
+    width:33%;
+    padding:10px;
+    text-align: center;
+}
+@media (max-width:1250px){
+    .container{
+        display:block
+    }
+    .meduim{
+        width: 100%;
+    }
+}
