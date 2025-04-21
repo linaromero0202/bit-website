@@ -1,66 +1,52 @@
-h1{
-    background-color: rgb(192, 69, 240);
-    height: 50px;
-    width: 100%;
-    margin: 5pxpx;
-    text-align: center;
-    line-height: 50px;
+/*titulo principal*/
+
+h1,h2,h4,nav{
+    color:rgb(187, 52, 225);
+    height: 35px;
+    width:35%;
+    margin:auto;
+    text-align:center;
+    line-height: 30px;
 }
 head{
     text-align: center;
     line-height: 30px;
 }
-
-h2, h3{
-    background-color: rgb(171, 88, 223);
+/*texto*/
+ h3,a{
+    color: rgb(189, 96, 247);
 }
 
 body{
-    background-color: rgba(244, 197, 242, 0.666);
+    background-color: rgba(249, 180, 246, 0.666);
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
-    
-    
 }
-
+/*texto*/
  h2 h3 h4  {
-    background-color: rgb(159, 86, 227);
+    color: rgb(159, 86, 227);
 }
-
-th
-td{
-    border: 10px solid rgb(190, 142, 229)
-
-}
+/*tabla*/
 ul,ol{
-    background-color: rgb(232, 116, 247);
+    color: rgb(212, 36, 235);
 }
-nav{
-    background-color: rgb(227, 183, 251);
-    
-} 
-    a{
-        background-color:rgb(202, 168, 238) ;
-    }
 
-thead{
-    border-bottom: 10px solid rgb(219, 133, 237);
-    text-align: center;
-    background-color: #fb5fee;
-   
-}
 caption{
-    background-color: rgb(168, 83, 247);
+    background-color: rgb(222, 111, 250);
 }
+thead{
+    background-color: rgb(204, 163, 243);
+}
+/*pagina p*/
 .container{
     display:inline-flex;
     flex-direction:row;
     flex-wrap: nowrap;
     justify-content:center;
-    align-items: center;
+    align-items:center;
     align-content:center;
-    margin-bottom:1px auto;
-    border:3px solid rgb(200, 0, 255);
-    padding:5px ;
+    margin-bottom:10px;
+    border:3px solid rgb(215, 145, 235);
+    padding:100px ;
     width:100%;
     text-align: center;
 }
@@ -73,11 +59,31 @@ caption{
     padding:10px;
     text-align: center;
 }
-@media (max-width:1250px){
+@media screen and (max-width:768px){
     .container{
+        width: 768px;
+        margin-left: auto;
+        margin-right: auto;
         display:block
     }
+  }   
+  @media screen and (min-width:992px) {
+    .container{
+        width: 992px;
+        margin-left: auto;
+        margin-right: auto;
+        display:block;
+    }
+  }     
+  @media screen and (min-widdth:576px) {
+    .container{
+        width: 576px;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+  }
+    
     .meduim{
         width: 100%;
-    }
 }

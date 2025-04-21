@@ -30,4 +30,9 @@
    -tablas con margenes,colores 
    -textos con diferentes clases de color 
    -bordes y margenes
-   -
+   -flexbox
+
+   ### bit-website-mi-proyecto
+   - contar sobre mi 
+   -contar sobre mi trabajo
+   -contar sobre mis cosas favoritos
